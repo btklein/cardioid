@@ -1,4 +1,9 @@
 # Cardioid on AWS Walk Through (Work In Progress)
+*Note: This walkthrough has the following presumptions:*<br>
+*- Already selected and launched GPU instance type from AWS*<br>
+*- Configured instance for proper network access*<br>
+*- Secure Shell into the instance* *`ssh -i yourkey.pem ec2-user@you-ip-or-dns-address`*
+<br>
 
 ```sh
 
