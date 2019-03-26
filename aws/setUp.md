@@ -1,4 +1,4 @@
-# Cardioid on AWS Walk Through (Work In Progress)
+# [Cardioid](https://github.com/llnl/cardioid/) on AWS Walk Through - Work In Progress 
 *Note: This walkthrough has the following presumptions:*<br>
 *- Already selected and launched GPU instance type from AWS*<br>
 *- Configured instance for proper network access*<br>
@@ -225,7 +225,7 @@ All done
 
 
 
-# Spack & Cardioid
+# [Spack](https://github.com/spack/spack) & [Cardioid](https://github.com/llnl/cardioid/)
 ### Get spack
 `git clone https://github.com/spack/spack.git`
 
@@ -252,7 +252,7 @@ source .bashrc
 
 
 
-### Quick Overview of Spack Creating, Activating, Deleting Environments
+### Quick Overview of [Spack](https://github.com/spack/spack) Creating, Activating, Deleting Environments
 https://spack.readthedocs.io/en/latest/tutorial_environments.html#spack-yaml
 https://spack.readthedocs.io/en/latest/command_index.html
 
@@ -552,7 +552,7 @@ openssl@1.0.2%gcc@7.3.1+systemcerts arch=linux-amzn2-x86_64
 
 
 
-# Cardioid Prep and Install
+# [Cardioid](https://github.com/llnl/cardioid/) Prep and Install
 `spack graph cardioid`
 ```sh
 #OUTPUT:
@@ -765,7 +765,7 @@ _________________________________________________________________
 
 
 
-# Test Cardioid
+# Test [Cardioid](https://github.com/llnl/cardioid/)
 
 `./cardioid.local/bin/singleCell -m TT06Dev`
 
